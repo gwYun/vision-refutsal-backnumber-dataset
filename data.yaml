@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['blue', 'red', 'str', 'yellow']
+
+roboflow:
+  workspace: project-zvdnd
+  project: player-detection-fiwh8
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-zvdnd/player-detection-fiwh8/dataset/3
